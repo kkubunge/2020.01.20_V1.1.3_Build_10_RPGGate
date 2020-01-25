@@ -1814,3 +1814,5 @@ _MAT_PARAM_MON:4.98]	2018/7/11 18:37:57	<SYSTEM> Communication Disconnect Error
 [ABORT_GAS:4.98]	2020/1/22 15:55:17	_dRUN_FUNCTION(MFC_CONTROL) has been Ready
 [ABORT_GAS:4.98]	2020/1/22 17:4:10	_dRUN_FUNCTION(MFC_CONTROL) has Running already => Wait until ready to run
 [ABORT_GAS:4.98]	2020/1/22 17:4:10	_dRUN_FUNCTION(MFC_CONTROL) has been Ready
+[ABORT_GAS:4.98]	2020/1/25 21:10:37	_dRUN_FUNCTION(MFC_CONTROL) has Running already => Wait until ready to run
+[ABORT_GAS:4.98]	2020/1/25 21:10:37	_dRUN_FUNCTION(MFC_CONTROL) has been Ready

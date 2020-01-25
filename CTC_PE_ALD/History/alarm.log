@@ -85,3 +85,5 @@
 2020/1/22 17:4:24  	<POST>	[PM1      1307 SWGlobalInterlockAct           Process Module Interlock Is Activated                                                              2 2020/1/22 17:4:11  ]
 2020/1/22 17:5:22  	<R=CLEAR>	[PM1      1307 SWGlobalInterlockAct           Clear Operation                                                                                    2 2020/1/22 17:4:11  ]
 2020/1/22 17:5:22  	<CLEAR>	[PM1      1307 SWGlobalInterlockAct           Process Module Interlock Is Activated                                                              2 2020/1/22 17:4:11  ]
+2020/1/25 20:54:22 	<POST>	[PM1      1307 SWGlobalInterlockAct           Process Module Interlock Is Activated                                                              2 2020/1/25 20:52:20 ]
+2020/1/25 20:56:10 	<POST>	[PM1      8629 HTExchangerTempLow             Heat Exchanger Temp Low Limit                                                                      2 2020/1/25 20:56:10 ]
