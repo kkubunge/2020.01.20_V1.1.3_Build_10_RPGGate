@@ -293,6 +293,7 @@ $DRV	PM2
 		PRMD_HO_HT2AmbSts 		-	$DRV	1	$DRV
 		PRMD_HO_HT2Battery		-	$DRV	1	$DRV
 		PRMD_HO_RPGWfrFlw 		-	$DRV	1	$DRV
+		PRMD_HO_RPGWfr2Flw 		-	$DRV	1	$DRV
 		PRMD_HO_RPGDetect 		-	$DRV	1	$DRV
 		PRMD_HO_SmokeDetect		-	$DRV	1	$DRV
 		PRMD_HO_SolVlvSts 		-	$DRV	1	$DRV
@@ -523,6 +524,7 @@ $$$ Digital
 	PRMA_HT14_OnOff_LT	-	$DRV	1	$DRV
 	PRMA_HT15_OnOff_LT	-	$DRV	1	$DRV
 	PRMA_HT16_OnOff_LT	-	$DRV	1	$DRV
+
 	PRMA_HT01_CtrlMd_LT	-	$DRV	1	$DRV
 	PRMA_HT02_CtrlMd_LT	-	$DRV	1	$DRV
 	PRMA_HT03_CtrlMd_LT	-	$DRV	1	$DRV

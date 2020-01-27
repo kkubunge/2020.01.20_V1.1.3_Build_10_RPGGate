@@ -12,14 +12,16 @@
 12	CENTER	Black		Black		Black		Yellow		10	# 33
 13	CENTER	White		DarkGray	Black		LightGray	10	# 37
 
-15	CENTER	DarkGray	White		Black		LightGray	11	# 38
-16	CENTER	DarkGray	White		Black		White		11	# 39
-17	CENTER	DarkGray	White		Black		RightRed	11	# 40
+15	CENTER	Blank		Blank		Blank		Blank		11	# 71
+16	CENTER	DarkGray	White		Black		LightGray	11	# 38
+17	CENTER	DarkGray	White		Black		White		11	# 39
+18	CENTER	DarkGray	White		Black		RightRed	11	# 40
 
 20	CENTER	Blank		Blank		White		Blank		20	# 95
 
-25	CENTER	Blank		Blank		Black		Blank		21	# 78
-26	LEFT	Blank		Blank		Black		Blank		21	# 76
+25	CENTER	Blank	Blank	Black	Blank	21	# 78
+26	CENTER	Blank	Blank	White	Blank	21	# 89
+27	LEFT	Blank	Blank	Black	Blank	21	# 76
 
 30	CENTER	Blank		Blank		Black		Blank		30	# 1
 31	CENTER	DarkGray	White		Black		White		30	# 0

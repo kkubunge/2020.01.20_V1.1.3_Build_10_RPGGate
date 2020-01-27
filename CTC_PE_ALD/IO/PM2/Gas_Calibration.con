@@ -359,7 +359,7 @@ $$$ Analog
 	M_CAL_MFC11_FACTOR_5	-	$DRV	1	$DRV
 
 	M_CAL_MFC11_FACTOR_AVG	-	$DRV	1	$DRV
-	
+
 	Manual_MFC1_SET	     	-	$DRV	1	$DRV
 	Manual_MFC2_SET	     	-	$DRV	1	$DRV
 	Manual_MFC3_SET	     	-	$DRV	1	$DRV

@@ -96,6 +96,10 @@ SOURCE=.\BackGround.rc
 # End Source File
 # Begin Source File
 
+SOURCE=.\Image\BACKGROUND_PMWater.bmp
+# End Source File
+# Begin Source File
+
 SOURCE=.\dllmain.c
 # End Source File
 # End Target

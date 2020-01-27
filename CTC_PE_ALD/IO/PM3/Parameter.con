@@ -293,6 +293,7 @@ $DRV	PM3
 		PRMD_HO_HT2AmbSts 		-	$DRV	1	$DRV
 		PRMD_HO_HT2Battery		-	$DRV	1	$DRV
 		PRMD_HO_RPGWfrFlw 		-	$DRV	1	$DRV
+		PRMD_HO_RPGWfr2Flw 		-	$DRV	1	$DRV
 		PRMD_HO_RPGDetect 		-	$DRV	1	$DRV
 		PRMD_HO_SmokeDetect		-	$DRV	1	$DRV
 		PRMD_HO_SolVlvSts 		-	$DRV	1	$DRV
@@ -503,7 +504,6 @@ $DRV	PM3
 		PRMA_Std_Temp			-	$DRV	1	$DRV
 		PRMA_UpTemp_Offset		-	$DRV	1	$DRV
 		PRMA_DnTemp_Offset		-	$DRV	1	$DRV
-
 #---------------------------------------------------------------------------------------------
 # PM Parameter 8
 #       LT Heater Set 1
@@ -1067,7 +1067,6 @@ $$$ Analog
 	PRMA_HT30_OutPwLmt_RT	-	$DRV	1	$DRV
 	PRMA_HT31_OutPwLmt_RT	-	$DRV	1	$DRV
 	PRMA_HT32_OutPwLmt_RT	-	$DRV	1	$DRV
-
 
 #---------------------------------------------------------------------------------------------
 # PM Parameter 8-4
