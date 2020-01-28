@@ -2645,6 +2645,7 @@ Module_Status DoLeakCheck(int nLeakCheckFunc,int nLineLeakCheckSeq)
 		//... Close throttle valve
 		__KF_BEGIN_ALARM
 			// msRet = RUN_FUNCTION(PRESS_CONTROL, "CLOSE");
+		// OPEN throttle valve
 		msRet = RUN_FUNCTION(PRESS_CONTROL, "OPEN");
 		if( SYS_SUCCESS != msRet )
 		{
