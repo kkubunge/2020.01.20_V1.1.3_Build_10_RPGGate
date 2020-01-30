@@ -107,3 +107,5 @@
 2020/1/27 21:0:25  	<CLEAR>	[PM3      **** ****************************** Alarm Remote Data Error 3                                                                                               ]
 2020/1/27 21:0:25  	<CLEAR>	[PM3      **** ****************************** Alarm Remote Data Error 3                                                                                               ]
 2020/1/27 21:0:28  	<POST>	[++++++++ 9903 PM3_PC_NOT_CONNECTED           PM3 Control PC Not Connected To CTC                                                                2 2020/1/27 21:0:28  ][F:TMC_CTRL_MONITOR]
+2020/1/30 17:19:57 	<POST>	[PM3      1307 SWGlobalInterlockAct           Process Module Interlock Is Activated                                                              2 2020/1/30 17:8:41  ]
+2020/1/30 17:19:58 	<POST>	[PM3      8026 SourceLowAlarm                 Source Low Alarm Detected                                                                          2 2020/1/30 17:19:57 ]
