@@ -410,7 +410,7 @@ void OnTimeSet(HWND hdlg)
 		//else
 
 		sprintf(buffer, "\t[Valve Data] ProcessStep:[%d] LineStep:[%d] %s - From [%f] to [%f]\n", g_dCurrentProcessStep, g_dCurrentTimeStep+1, "Valve Time", g_Det_Valve_Data.dbTime, dbRes);
-		SampleLogSave(buffer, "Item");
+		// SampleLogSave(buffer, "Item");
 
 		g_Det_Valve_Data.dbTime = dbRes;
 		KWIN_Item_Double_Display(hdlg, IDC_ITEM_TIME1, dbRes, g_nValveTime_DecPnt);
@@ -471,7 +471,7 @@ void Set_Valve_Data(HWND hdlg, WPARAM wParam)
 			Set_Detail_Valve_Edited(TRUE);
 			Draw_Valve_Data(hdlg);
 			GUI_LIB_All_Draw(hdlg);
-			SampleLogSave(buffer, "Item");
+			// SampleLogSave(buffer, "Item");
 		}
 		else
 		{
@@ -504,7 +504,7 @@ void Set_Valve_Data(HWND hdlg, WPARAM wParam)
 			Set_Detail_Valve_Edited(TRUE);
 			Draw_Valve_Data(hdlg);
 			GUI_LIB_All_Draw(hdlg);
-			SampleLogSave(buffer, "Item");
+			// SampleLogSave(buffer, "Item");
 		}
 		else
 		{
@@ -611,7 +611,7 @@ void Set_Value_Status(HWND hdlg, int dValveNo)
 			}
 
 			Set_Detail_Valve_Edited(TRUE);
-			SampleLogSave(buffer, "Item");
+			// SampleLogSave(buffer, "Item");
 		}
 		else
 		{
@@ -636,7 +636,7 @@ void Set_Value_Status(HWND hdlg, int dValveNo)
 			}
 
 			Set_Detail_Valve_Edited(TRUE);
-			SampleLogSave(buffer, "Item");
+			// SampleLogSave(buffer, "Item");
 		}
 		else
 		{

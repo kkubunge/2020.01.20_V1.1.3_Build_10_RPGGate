@@ -1302,7 +1302,7 @@ void OnValve_Edit(HWND hdlg, WPARAM wParam)
 					udValve_map_DMY.RCP_DATA[g_Val_Current_Step - 1][indexX].RCP_DATA[indexY] = VAL_CLOSE;
 					sprintf(buffer, "\t[Dummy Valve Data] ProcessStep:[%d] LineStep:[%d] %s - From [%s] to [%s]\n", g_Val_Current_Step, indexX+1, g_szValveName[indexY], "Open", "Close");
 				}
-				SampleLogSave(buffer, "Item");
+				// SampleLogSave(buffer, "Item");
 			}
 			else
 			{
@@ -1328,7 +1328,7 @@ void OnValve_Edit(HWND hdlg, WPARAM wParam)
 					udValve_map.RCP_DATA[g_Val_Current_Step - 1][indexX].RCP_DATA[indexY] = VAL_CLOSE;
 					sprintf(buffer, "\t[Valve Data] ProcessStep:[%d] LineStep:[%d] %s - From [%s] to [%s]\n", g_Val_Current_Step, indexX+1, g_szValveName[indexY], "Open", "Close");
 				}
-				SampleLogSave(buffer, "Item");
+				// SampleLogSave(buffer, "Item");
 			}
 			else
 			{
@@ -1365,7 +1365,7 @@ void OnSetTime1(HWND hdlg)
 		if (udValve_map.RCP_DATA[g_Val_Current_Step - 1][g_VScroll_Pos].dbTime != dbRes)
 		{
 			sprintf(buffer, "\t[Valve Data] ProcessStep:[%d] LineStep:[%d] %s - From [%f] to [%f]\n", g_Val_Current_Step, g_VScroll_Pos + 1, "Valve Time", udValve_map.RCP_DATA[g_Val_Current_Step - 1][g_VScroll_Pos].dbTime, dbRes);
-			SampleLogSave(buffer, "Item");
+			// SampleLogSave(buffer, "Item");
 		}
 		/*
 		if(g_bDMY)
@@ -1405,7 +1405,7 @@ void OnSetTime2(HWND hdlg)
 		if (udValve_map.RCP_DATA[g_Val_Current_Step - 1][g_VScroll_Pos + 1].dbTime != dbRes)
 		{
 			sprintf(buffer, "\t[Valve Data] ProcessStep:[%d] LineStep:[%d] %s - From [%f] to [%f]\n", g_Val_Current_Step, g_VScroll_Pos + 2, "Valve Time", udValve_map.RCP_DATA[g_Val_Current_Step - 1][g_VScroll_Pos + 1].dbTime, dbRes);
-			SampleLogSave(buffer, "Item");
+			// SampleLogSave(buffer, "Item");
 		}
 		//mgsong Modify for time interlock
 		//udValve_map_DMY.RCP_DATA[ g_Val_Current_Step - 1 ][g_VScroll_Pos + 1].dbTime = dbRes;
@@ -1437,7 +1437,7 @@ void OnSetTime3(HWND hdlg)
 		if (udValve_map.RCP_DATA[g_Val_Current_Step - 1][g_VScroll_Pos + 2].dbTime != dbRes)
 		{
 			sprintf(buffer, "\t[Valve Data] ProcessStep:[%d] LineStep:[%d] %s - From [%f] to [%f]\n", g_Val_Current_Step, g_VScroll_Pos + 3, "Valve Time", udValve_map.RCP_DATA[g_Val_Current_Step - 1][g_VScroll_Pos + 2].dbTime, dbRes);
-			SampleLogSave(buffer, "Item");
+			// SampleLogSave(buffer, "Item");
 		}
 		//mgsong Modify for time interlock
 		//udValve_map_DMY.RCP_DATA[ g_Val_Current_Step - 1 ][g_VScroll_Pos + 2].dbTime = dbRes;
@@ -1469,7 +1469,7 @@ void OnSetTime4(HWND hdlg)
 		if (udValve_map.RCP_DATA[g_Val_Current_Step - 1][g_VScroll_Pos + 3].dbTime != dbRes)
 		{
 			sprintf(buffer, "\t[Valve Data] ProcessStep:[%d] LineStep:[%d] %s - From [%f] to [%f]\n", g_Val_Current_Step, g_VScroll_Pos + 4, "Valve Time", udValve_map.RCP_DATA[g_Val_Current_Step - 1][g_VScroll_Pos + 3].dbTime, dbRes);
-			SampleLogSave(buffer, "Item");
+			// SampleLogSave(buffer, "Item");
 		}
 		//mgsong Modify for time interlock
 		//udValve_map_DMY.RCP_DATA[ g_Val_Current_Step - 1 ][g_VScroll_Pos + 3].dbTime = dbRes;
@@ -1501,7 +1501,7 @@ void OnSetTime5(HWND hdlg)
 		if (udValve_map.RCP_DATA[g_Val_Current_Step - 1][g_VScroll_Pos + 4].dbTime != dbRes)
 		{
 			sprintf(buffer, "\t[Valve Data] ProcessStep:[%d] LineStep:[%d] %s - From [%f] to [%f]\n", g_Val_Current_Step, g_VScroll_Pos + 5, "Valve Time", udValve_map.RCP_DATA[g_Val_Current_Step - 1][g_VScroll_Pos + 4].dbTime, dbRes);
-			SampleLogSave(buffer, "Item");
+			//SampleLogSave(buffer, "Item");
 		}
 		//mgsong Modify for time interlock
 		//udValve_map_DMY.RCP_DATA[ g_Val_Current_Step - 1 ][g_VScroll_Pos + 4].dbTime = dbRes;
@@ -1533,7 +1533,7 @@ void OnSetTime6(HWND hdlg)
 		if (udValve_map.RCP_DATA[g_Val_Current_Step - 1][g_VScroll_Pos + 5].dbTime != dbRes)
 		{
 			sprintf(buffer, "\t[Valve Data] ProcessStep:[%d] LineStep:[%d] %s - From [%f] to [%f]\n", g_Val_Current_Step, g_VScroll_Pos + 6, "Valve Time", udValve_map.RCP_DATA[g_Val_Current_Step - 1][g_VScroll_Pos + 5].dbTime, dbRes);
-			SampleLogSave(buffer, "Item");
+			// SampleLogSave(buffer, "Item");
 		}
 		//mgsong Modify for time interlock
 		//udValve_map_DMY.RCP_DATA[ g_Val_Current_Step - 1 ][g_VScroll_Pos + 5].dbTime = dbRes;
@@ -1565,7 +1565,7 @@ void OnSetTime7(HWND hdlg)
 		if (udValve_map.RCP_DATA[g_Val_Current_Step - 1][g_VScroll_Pos + 6].dbTime != dbRes)
 		{
 			sprintf(buffer, "\t[Valve Data] ProcessStep:[%d] LineStep:[%d] %s - From [%f] to [%f]\n", g_Val_Current_Step, g_VScroll_Pos + 7, "Valve Time", udValve_map.RCP_DATA[g_Val_Current_Step - 1][g_VScroll_Pos + 6].dbTime, dbRes);
-			SampleLogSave(buffer, "Item");
+			// SampleLogSave(buffer, "Item");
 		}
 		//mgsong Modify for time interlock
 		//udValve_map_DMY.RCP_DATA[ g_Val_Current_Step - 1 ][g_VScroll_Pos + 6].dbTime = dbRes;
@@ -1597,7 +1597,7 @@ void OnSetTime8(HWND hdlg)
 		if (udValve_map.RCP_DATA[g_Val_Current_Step - 1][g_VScroll_Pos + 7].dbTime != dbRes)
 		{
 			sprintf(buffer, "\t[Valve Data] ProcessStep:[%d] LineStep:[%d] %s - From [%f] to [%f]\n", g_Val_Current_Step, g_VScroll_Pos + 8, "Valve Time", udValve_map.RCP_DATA[g_Val_Current_Step - 1][g_VScroll_Pos + 7].dbTime, dbRes);
-			SampleLogSave(buffer, "Item");
+			// SampleLogSave(buffer, "Item");
 		}
 		//mgsong Modify for time interlock
 		//udValve_map_DMY.RCP_DATA[ g_Val_Current_Step - 1 ][g_VScroll_Pos + 7].dbTime = dbRes;
@@ -1791,7 +1791,7 @@ BOOL OnValStepCycCount(HWND hdlg)
 		if (udValve_map.dValveStepCycleCount[g_Val_Current_Step - 1] != dRes)
 		{
 			sprintf(buffer, "\t[Valve Data] STEP:[%d] %s - From [%d] to [%d]\n", g_Val_Current_Step - 1, "Valve Step Cycle Count", udValve_map.dValveStepCycleCount[g_Val_Current_Step - 1], dRes);
-			SampleLogSave(buffer, "Item");
+			// SampleLogSave(buffer, "Item");
 		}
 		udValve_map.dValveStepCycleCount[g_Val_Current_Step - 1] = dRes;
 		udValve_map_DMY.dValveStepCycleCount[g_Val_Current_Step - 1] = dRes;
