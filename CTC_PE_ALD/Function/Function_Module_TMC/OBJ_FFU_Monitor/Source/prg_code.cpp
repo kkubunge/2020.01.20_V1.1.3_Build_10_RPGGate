@@ -39,7 +39,7 @@ IO_Name_String_Map IO_STR_Map_Table[] = {
 	{ "PRMA_FFU_DIFFPRS_LIMIT"	, _K_A_IO,			PRMA_FFU_DIFFPRS_LIMIT	,	0 },
 	{ "PRMA_FFU_RPM1"			, _K_A_IO,			PRMA_FFU_RPM1			,	0 },
 	{ "PRMA_FFU_RPM2"			, _K_A_IO,			PRMA_FFU_RPM2			,	0 },
-	{ "PRMA_FFU_MAKER"			, _K_D_IO,			PRMA_FFU_MAKER			,	0 },
+	{ "PRMD_FFU_MAKER"			, _K_D_IO,			PRMD_FFU_MAKER			,	0 },
 	{ "TM.FFU1_RpmAI"			, _K_A_IO,			FFU1_RpmAI				,	0 },
 	{ "TM.FFU2_RpmAI"			, _K_A_IO,			FFU2_RpmAI				,	0 },
 
@@ -159,7 +159,7 @@ void MCULAlmCheckThread()
 		}
 
 		S_PRES = READ_ANALOG( PRMA_FFU_DIFFPRS_LIMIT  , &CommStatus );
-		nFFU_Maker = READ_DIGITAL( PRMA_FFU_MAKER  , &CommStatus );
+		nFFU_Maker = READ_DIGITAL( PRMD_FFU_MAKER  , &CommStatus );
 		if (nFFU_Maker == SINSUNG)
 		{
 			R_PRES = READ_ANALOG( EFEMDiff_PresAI_Sin , &CommStatus );

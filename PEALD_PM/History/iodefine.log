@@ -1367,7 +1367,7 @@
 [1101]                 PRMD_HW_DPType           DPTypeEnum || -feedback MEMORY [   -1    -1    -1    -1]  0.0 || -feedback MEMORY [   -1    -1    -1    -1] [Min-       0  Max-       4] [Poll-0] Init - 2 
 [1102]               PRMD_DummyRecipe            DMYRcpUse || -feedback MEMORY [   -1    -1    -1    -1]  0.0 || -feedback MEMORY [   -1    -1    -1    -1] [Min-       0  Max-       1] [Poll-0] Init - 0 
 [1103]                  RRMD_VENT_SEQ           VENTSQEnum || -feedback MEMORY [   -1    -1    -1    -1]  0.0 || -feedback MEMORY [   -1    -1    -1    -1] [Min-       0  Max-       1] [Poll-0] Init - 0 
-[1104]            PRMA_GATE_VALVE_OPT        CloseOpenEnum || -feedback MEMORY [   -1    -1    -1    -1]  0.0 || -feedback MEMORY [   -1    -1    -1    -1] [Min-       0  Max-       1] [Poll-0] Init - 1 
+[1104]            PRMD_GATE_VALVE_OPT        CloseOpenEnum || -feedback MEMORY [   -1    -1    -1    -1]  0.0 || -feedback MEMORY [   -1    -1    -1    -1] [Min-       0  Max-       1] [Poll-0] Init - 1 
 [1105]                 PRMD97_CNT_INT                OffOn || -feedback MEMORY [   -1    -1    -1    -1]  0.0 || -feedback MEMORY [   -1    -1    -1    -1] [Min-       0  Max-       1] [Poll-0] Init - 0 
 [1106]                 PRMD98_CNT_INT                OffOn || -feedback MEMORY [   -1    -1    -1    -1]  0.0 || -feedback MEMORY [   -1    -1    -1    -1] [Min-       0  Max-       1] [Poll-0] Init - 0 
 [1107]                PRMD100_CNT_INT                OffOn || -feedback MEMORY [   -1    -1    -1    -1]  0.0 || -feedback MEMORY [   -1    -1    -1    -1] [Min-       0  Max-       1] [Poll-0] Init - 0 
@@ -8052,7 +8052,7 @@
 [2704] [    HTRB02TempTolOut] [2] - HeaterB02 Temperature Out Of Tolerance 
                           - Clear Operation
                           - CLEAR/CLEAR/CLEAR/CLEAR/CLEAR
-[2710] [StageHeaterWorkTempError] [2] - Stage Heater Work Temp ¿Í Reading Temp°¡ 50µµ ÀÌ»ó Â÷ÀÌ¹ß»ýÇÏ¿© Relay On ÇÒ¼ö ¾øÀ½. 
+[2710] [StageHeaterWorkTempError] [2] - Stage Heater Work Temp ï¿½ï¿½ Reading Tempï¿½ï¿½ 50ï¿½ï¿½ ï¿½Ì»ï¿½ ï¿½ï¿½ï¿½Ì¹ß»ï¿½ï¿½Ï¿ï¿½ Relay On ï¿½Ò¼ï¿½ ï¿½ï¿½ï¿½ï¿½. 
                           - Clear Operation
                           - CLEAR/CLEAR/CLEAR/CLEAR/CLEAR
 [2740] [    HTR988InitFailed] [2] - Stage Heater(HTR988) Controller Initialization is failed 

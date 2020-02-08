@@ -13,7 +13,7 @@ typedef enum {
 		PRMA_FFU_DIFFPRS_LIMIT	,
 		PRMA_FFU_RPM1			,
 		PRMA_FFU_RPM2			,
-		PRMA_FFU_MAKER			,
+		PRMD_FFU_MAKER			,
 		FFU1_RpmAI				,
 		FFU2_RpmAI				,
 } IOPointIndex;

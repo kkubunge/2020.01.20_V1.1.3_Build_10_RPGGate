@@ -25,7 +25,7 @@ PRMD_AI_DPCheck		NoYesEnum	Yes
 PRMD_HW_DPType		DPTypeEnum	Alcatel
 PRMD_DummyRecipe	DMYRcpUse	NotUse
 RRMD_VENT_SEQ		VENTSQEnum	Ar_1_9
-PRMA_GATE_VALVE_OPT	CloseOpenEnum	Open
+PRMD_GATE_VALVE_OPT	CloseOpenEnum	Open
 
 $$$ Analog
 PRMA_TO_DryPumpOn	sec	-	-	-	-	0	0	700	1	-	-	-	-	0	0	700	-	-	-	-	10

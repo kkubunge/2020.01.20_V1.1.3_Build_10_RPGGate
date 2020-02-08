@@ -403,7 +403,7 @@ IO_Name_String_Map IO_STR_Map_Table[] = {
 	{ "LnRoRLimitAM",			_K_A_IO,	LnRoRLimitAM,			0},
 	{ "ALDRoRLimitAM",			_K_A_IO,	ALDRoRLimitAM,			0},
 	{ "UrRoRLimitAM",			_K_A_IO,	UrRoRLimitAM,			0},
-	{ "PRMA_GATE_VALVE_OPT",	_K_D_IO,	PRMA_GATE_VALVE_OPT,	0},
+	{ "PRMD_GATE_VALVE_OPT",	_K_D_IO,	PRMD_GATE_VALVE_OPT,	0},
 	{ "RPGGateVlvPosDI",		_K_D_IO,	RPGGateVlvPosDI,		0},
 	{ "RPGGateVlv2PosDI",		_K_D_IO,	RPGGateVlv2PosDI,		0},
 
@@ -865,7 +865,7 @@ Module_Status StartDPBooster()
 			break;
 		}
 
-		// Coding is needed MB_Status_SDI, MB_StartStop_SDO°¡ ÇöÀç ¾øÀ½.
+		// Coding is needed MB_Status_SDI, MB_StartStop_SDOï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 		nCurMBRunStatus = READ_DIGITAL_COMMCHECK( pszFtnName, MBStsDI, &nIOStatus);
 		if( MB_RUNNING == nCurMBRunStatus )
 		{
@@ -1120,7 +1120,7 @@ Module_Status Pump()
 		}
 
 		// 2020. 01. 22 RPG gate valve open
-		if (READ_DIGITAL(PRMA_GATE_VALVE_OPT, &nIOStatus) == CTRL_ON)
+		if (READ_DIGITAL(PRMD_GATE_VALVE_OPT, &nIOStatus) == CTRL_ON)
 		{
 			if(FALSE == CheckSafetyPLCMode(ePLCMODE_TEACH))
 			{
@@ -1358,7 +1358,7 @@ Module_Status Pump()
 	}while(0);
 
 	// 2020. 01.22 gate valve close
-	if (READ_DIGITAL(PRMA_GATE_VALVE_OPT, &nIOStatus) == CTRL_ON)
+	if (READ_DIGITAL(PRMD_GATE_VALVE_OPT, &nIOStatus) == CTRL_ON)
 	{
 		WRITE_DIGITAL(V103ValveDO, Vlv_CLOSE, &nIOStatus);
 		WRITE_DIGITAL(V111ValveDO, Vlv_CLOSE, &nIOStatus);
@@ -2077,7 +2077,7 @@ Module_Status Vent()
 		}
 
 		// 2020. 01. 22 RPG gate valve open
-		if (READ_DIGITAL(PRMA_GATE_VALVE_OPT, &nIOStatus) == CTRL_ON)
+		if (READ_DIGITAL(PRMD_GATE_VALVE_OPT, &nIOStatus) == CTRL_ON)
 		{
 			__KF_BEGIN_ALARM
 			WRITE_DIGITAL(V103ValveDO, Vlv_OPEN, &nIOStatus);
@@ -2201,7 +2201,7 @@ Module_Status Vent()
 	}while(0);
 
 	// 2020. 01.22 gate valve close
-	if (READ_DIGITAL(PRMA_GATE_VALVE_OPT, &nIOStatus) == CTRL_ON)
+	if (READ_DIGITAL(PRMD_GATE_VALVE_OPT, &nIOStatus) == CTRL_ON)
 	{
 		WRITE_DIGITAL(V103ValveDO, Vlv_CLOSE, &nIOStatus);
 		WRITE_DIGITAL(V111ValveDO, Vlv_CLOSE, &nIOStatus);
@@ -2266,7 +2266,7 @@ Module_Status ReadLeakCheckParameter(int nLeakCheckFunc)
 				g_LKParameter[eNormalLeakCheck].dbLCPumpingTO	  < 0  ||
 				g_LKParameter[eNormalLeakCheck].dbLCDelayTime	  < 0  ||
 				g_LKParameter[eNormalLeakCheck].dbRghOpenAndLCDelayTime < 0 /*||
-				g_LKParameter[eNormalLeakCheck].dbRoRLimit		  <= 0*/    //... 2019.02.11 ROR Limit °ªÀÌ "-3" ±îÁö ¼³Á¤ ÇÒ ¼ö ÀÖ´Ù.
+				g_LKParameter[eNormalLeakCheck].dbRoRLimit		  <= 0*/    //... 2019.02.11 ROR Limit ï¿½ï¿½ï¿½ï¿½ "-3" ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½.
 				) //... Check Invalid Parameters
 			{
 				msRet = SYS_ABORTED;
@@ -2806,7 +2806,7 @@ Module_Status DoLeakCheck(int nLeakCheckFunc,int nLineLeakCheckSeq)
 	if(dbSumLeakRate != 0 && i != 0)
 	{
 		g_LKParameter[nLeakCheckFunc].dbAvgRate    = dbSumLeakRate / i;
-		//... 17L ¿äÃ» »çÇ×: Limit Torr RateÀº -3 Torr ±îÁö °¡´ÉÇÏÁö¸¸ ÃÖ¼ÒÇÑÀÇ Inner Leak »ç°í´Â ¹æÁö ÇÏÀÚ
+		//... 17L ï¿½ï¿½Ã» ï¿½ï¿½ï¿½ï¿½: Limit Torr Rateï¿½ï¿½ -3 Torr ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½ï¿½ï¿½ Inner Leak ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		if(g_LKParameter[nLeakCheckFunc].dbRoRLimit  < g_LKParameter[nLeakCheckFunc].dbAvgRate
 			|| -3 > g_LKParameter[nLeakCheckFunc].dbAvgRate)
 		{

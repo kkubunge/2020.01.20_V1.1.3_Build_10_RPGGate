@@ -314,7 +314,7 @@ typedef enum {
 		ALDRoRLimitAM,
 		UrRoRLimitAM,
 		// 2020. 01. 22
-		PRMA_GATE_VALVE_OPT,
+		PRMD_GATE_VALVE_OPT,
 		RPGGateVlvPosDI,
 		RPGGateVlv2PosDI,
 		//...
