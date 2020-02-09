@@ -2619,3 +2619,12 @@
 2020/1/29 9:55:59	[SERVER2] Disconnect from (192.168.55.250). Wait Connect (5004) from Client(E=10054)
 2020/1/29 9:56:1	[SERVER1] Connected. Connect (5003) from Client (192.168.55.250)[1]
 2020/1/29 9:56:1	[SERVER1] Disconnect from (192.168.55.250). Wait Connect (5003) from Client(E=10054)
+2020/2/9 14:4:5	[SERVER2] Connected. Connect (5004) from Client (172.30.1.8)[1]
+2020/2/9 14:4:5	[SERVER1] Connected. Connect (5003) from Client (172.30.1.8)[1]
+2020/2/9 14:4:50	[SERVER1] Disconnect from (172.30.1.8). Wait Connect (5003) from Client(E=10054)
+2020/2/9 14:4:50	[SERVER2] Disconnect from (172.30.1.8). Wait Connect (5004) from Client(E=10054)
+2020/2/9 14:4:50	0	[-] SERVER[00] DISCONNECTED 1
+2020/2/9 14:4:50	1	[-] SERVER[01] DISCONNECTED 1
+2020/2/9 14:4:50	2	[-] SERVER[02] DISCONNECTED 1
+2020/2/9 14:4:51	3	[-] SERVER[03] DISCONNECTED 1
+2020/2/9 14:4:51	4	[-] SERVER[04] DISCONNECTED 1
