@@ -41,9 +41,9 @@ SCREEN_ONLINE_LOG	99	Engine/Exec/GUI_OnlineLog		RUN		"Function\Function_Schedule
 
 SCREEN_OPERATE		99	Engine/Exec/Gui_OperateLog		RUN		"FUNCTION/Function_Scheduler/Gui_OperateLog/Background/Background"	"$|TM|3"
 
-SCREEN_RECIPE_PRCS_PM1	97	FUNCTION/Function_Module_Recipe_Editor/PM1/Control_BeforeNF3/Sequence	RUN	"PM1"	"FUNCTION/Function_Module_Recipe_Editor/PM1/Menu_Recipe_Process_BeforeNF3.cfg|RECIPE|PROCESS\\PM1|G"
-SCREEN_RECIPE_PRCS_PM2	97	FUNCTION/Function_Module_Recipe_Editor/PM2/Control_BeforeNF3/Sequence	RUN	"PM2"	"FUNCTION/Function_Module_Recipe_Editor/PM2/Menu_Recipe_Process_BeforeNF3.cfg|RECIPE|PROCESS\\PM2|G"
-SCREEN_RECIPE_PRCS_PM3	97	FUNCTION/Function_Module_Recipe_Editor/PM3/Control_BeforeNF3/Sequence	RUN	"PM3"	"FUNCTION/Function_Module_Recipe_Editor/PM3/Menu_Recipe_Process_BeforeNF3.cfg|RECIPE|PROCESS\\PM3|G"
+SCREEN_RECIPE_PRCS_PM1	97	FUNCTION/Function_Module_Recipe_Editor/PM1/Control/Sequence	RUN	"PM1"	"FUNCTION/Function_Module_Recipe_Editor/PM1/Menu_Recipe_Process.cfg|RECIPE|PROCESS\\PM1|G"
+SCREEN_RECIPE_PRCS_PM2	97	FUNCTION/Function_Module_Recipe_Editor/PM2/Control/Sequence	RUN	"PM2"	"FUNCTION/Function_Module_Recipe_Editor/PM2/Menu_Recipe_Process.cfg|RECIPE|PROCESS\\PM2|G"
+SCREEN_RECIPE_PRCS_PM3	97	FUNCTION/Function_Module_Recipe_Editor/PM3/Control/Sequence	RUN	"PM3"	"FUNCTION/Function_Module_Recipe_Editor/PM3/Menu_Recipe_Process.cfg|RECIPE|PROCESS\\PM3|G"
 
 SCREEN_SYSTEM		98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/CTC/Screen_CTC.cfg"
 SCREEN_SYSTEM_PARM	98	Engine/Exec/GUI_Standard2		RUN		""	"GUI/CTC/AutoPC_Chk_Param.cfg"
