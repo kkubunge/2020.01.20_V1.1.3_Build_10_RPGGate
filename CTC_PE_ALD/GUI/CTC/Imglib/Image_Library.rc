@@ -153,14 +153,14 @@ B_0043_0000000001	BITMAP			IMAGE/Button/Button_ConfigCancel_Enable.bmp
 B_0044_0000000000	BITMAP			IMAGE/Button/Button_ConfigAdapt_Disable.bmp
 B_0044_0000000001	BITMAP			IMAGE/Button/Button_ConfigAdapt_Enable.bmp
 
-//B_0045_0000000000	BITMAP			IMAGE/Button/Button_ConfigLoad_Disable_Small.bmp
-//B_0045_0000000001	BITMAP			IMAGE/Button/Button_ConfigLoad_Enable_Small.bmp
-//B_0046_0000000000	BITMAP			IMAGE/Button/Button_ConfigSave_Disable_Small.bmp
-//B_0046_0000000001	BITMAP			IMAGE/Button/Button_ConfigSave_Enable_Small.bmp
-//B_0047_0000000000	BITMAP			IMAGE/Button/Button_ConfigCancel_Disable_Small.bmp
-//B_0047_0000000001	BITMAP			IMAGE/Button/Button_ConfigCancel_Enable_Small.bmp
-//B_0048_0000000000	BITMAP			IMAGE/Button/Button_Edit_Enable_Small.bmp
-//B_0048_0000000001	BITMAP			IMAGE/Button/Button_Edit_Disable_Press.bmp
+B_0045_0000000000	BITMAP			IMAGE/Button/Button_ConfigLoad_Disable_Small.bmp
+B_0045_0000000001	BITMAP			IMAGE/Button/Button_ConfigLoad_Enable_Small.bmp
+B_0046_0000000000	BITMAP			IMAGE/Button/Button_ConfigSave_Disable_Small.bmp
+B_0046_0000000001	BITMAP			IMAGE/Button/Button_ConfigSave_Enable_Small.bmp
+B_0047_0000000000	BITMAP			IMAGE/Button/Button_ConfigCancel_Disable_Small.bmp
+B_0047_0000000001	BITMAP			IMAGE/Button/Button_ConfigCancel_Enable_Small.bmp
+B_0048_0000000000	BITMAP			IMAGE/Button/Button_Edit_Enable_Small.bmp
+B_0048_0000000001	BITMAP			IMAGE/Button/Button_Edit_Disable_Press.bmp
 
 B_0050_0000000000	BITMAP			IMAGE/PMC_Img/OFFON_On.BMP
 B_0050_0000000001	BITMAP			IMAGE/PMC_Img/ERROK_ERR.BMP
@@ -173,9 +173,9 @@ B_0053_0000000000	BITMAP			IMAGE/Button/Button_LotpreCancel_Disable.bmp
 B_0053_0000000001	BITMAP			IMAGE/Button/Button_LotpreCancel_Enable.bmp
 B_0054_0000000000	BITMAP			IMAGE/Button/Button_LotpreAdapt_Disable.bmp
 B_0054_0000000001	BITMAP			IMAGE/Button/Button_LotpreAdapt_Enable.bmp
-//B_0055_0000000000	BITMAP			IMAGE/Button/Button_Start_Small.bmp
-//B_0056_0000000000	BITMAP			IMAGE/Button/Button_Stop_Small.bmp
-//B_0057_0000000000	BITMAP			IMAGE/Button/Button_ConfigAdapt_Small.bmp
+B_0055_0000000000	BITMAP			IMAGE/Button/Button_Start_Small.bmp
+B_0056_0000000000	BITMAP			IMAGE/Button/Button_Stop_Small.bmp
+B_0057_0000000000	BITMAP			IMAGE/Button/Button_ConfigAdapt_Small.bmp
 
 B_0062_0000000000	BITMAP			IMAGE/Button/IDok_Disable.bmp
 B_0062_0000000001	BITMAP			IMAGE/Button/IDok_Enable.bmp
@@ -493,8 +493,8 @@ B_0212_0000000000_X	BITMAP			IMAGE/cassette/Cassette_CM_None_X.bmp
 B_0212_0000000001  	BITMAP			IMAGE/cassette/Cassette_CM_Yes_In.bmp
 B_0212_0000000001_X	BITMAP			IMAGE/cassette/Cassette_CM_Yes_In_X.bmp
 
-//B_0213_0000000000  	BITMAP			IMAGE/cassette/N2PurgeStatus.bmp
-//B_0213_0000000001  	BITMAP			IMAGE/cassette/N2PurgeStatus.bmp
+B_0213_0000000000  	BITMAP			IMAGE/cassette/N2PurgeStatus.bmp
+B_0213_0000000001  	BITMAP			IMAGE/cassette/N2PurgeStatus.bmp
 
 B_0221_0000000000	BITMAP			IMAGE/User/Chamber_Sel_CM1.bmp
 B_0221_0000000001	BITMAP			IMAGE/User/Chamber_Sel_CM2.bmp
